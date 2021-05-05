@@ -24,6 +24,9 @@ setup.log
 
 # Dune generated files
 *.install
+dune-project
 
 # Local OPAM switch
 _opam/
+
+solver
