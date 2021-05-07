@@ -2,7 +2,7 @@ let neighbours : int list array = Utils.neighbours ()
 
 module ColorSet = Set.Make (Int)
 
-let all_colors = ColorSet.of_seq (Array.to_seq (Array.init Utils.size (fun i -> i)))
+let all_colors = ColorSet.of_seq (Array.to_seq (Array.init Utils.size (fun i -> i + 1)))
 
 let possible_colors (grid : int array) : ColorSet.t array =
   Array.map (fun l -> l
