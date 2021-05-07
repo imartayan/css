@@ -1,3 +1,5 @@
+val size : int
+
 val parse_grid : unit -> int array
 
 val print_grid : int array -> unit
